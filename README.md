@@ -1,8 +1,10 @@
 # http-hello-go
 
-This is a small web application that I use for demonstration purposes. It's the
-Go equivalent of the demo Sinatra application that I use in my [Packer and
-Terraform Example][packer-terraform-example] and [2016 AWS Advent
+This is a small web application that I use for demonstration purposes in
+various infrastructure projects.
+
+It's the Go equivalent of the demo Sinatra application that I use in my [Packer
+and Terraform Example][packer-terraform-example] and [2016 AWS Advent
 Demo][advent-demo] repositories, and serves the same purpose as a stand-in
 sample web app to demonstrate deployment patterns with [Packer][packer] and
 [Terraform][terraform].
@@ -31,7 +33,7 @@ There are tests in `main_test.go` as well that can be run with `go test ./`.
 ## License
 
 ```
-Copyright 2018 Chris Marchesi
+Copyright 2018-2023 Chris Marchesi
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
